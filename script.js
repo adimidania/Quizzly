@@ -93,7 +93,7 @@ Submitbtn.addEventListener("click", () => {
         else {
             quiz.innerHTML = `
             <h2>Quiz Finished!</h2>
-            <p>You got ${score} out of ${quizData.length} correct answers</p>
+            <p style="padding:20px;">You got ${score} out of ${quizData.length} correct answers</p>
             <button onclick="location.reload()">Reload Quiz</button>
             `
         }
