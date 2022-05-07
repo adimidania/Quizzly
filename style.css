@@ -61,6 +61,11 @@ button {
     padding: 1.3rem;
 }
 
+#quiz p {
+    text-align: center;
+    padding: 20px;
+}
+
 button:hover {
     background-color: #732d91;
 }
@@ -68,4 +73,8 @@ button:hover {
 button:focus {
     background-color: #5e3370;
     outline: none;
+}
+
+li:hover {
+    color:#8e44ad;
 }
